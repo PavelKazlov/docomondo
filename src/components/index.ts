@@ -1,6 +1,7 @@
 export * from './BlockHeader'
 export * from './CellComponent'
 export * from './DonatDiagram'
+export * from './LinearDiagram'
 export * from './RowComponent'
 export * from './StatusComponent'
 export * from './StatusRowDiagram'
