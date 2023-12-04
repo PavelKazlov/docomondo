@@ -1,7 +1,7 @@
 import { setUserId } from '@/redux'
 import React from 'react'
 
-import { Button, Text, View } from 'react-native'
+import { Text, View } from 'react-native'
 import { useDispatch } from 'react-redux'
 
 export const SettingsScreen = () => {
@@ -14,7 +14,7 @@ export const SettingsScreen = () => {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text>Info Screen</Text>
-      <Button onPress={signOut} title={'Sign Out User'} />
+      {/* <Button onPress={signOut} title={'Sign Out User'} /> */}
     </View>
   )
 }
